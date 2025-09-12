@@ -1,0 +1,313 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.top-strip {
+  background-color: #d10016;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background-color: #e0e0e0;
+  font-family: 'Arvo', serif;
+}
+
+.header img {
+  height: 60px;
+}
+
+.nav-buttons button {
+  background: none;
+  border: none;
+  margin: 0 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: 'Arvo', serif;
+}
+
+.contact {
+  background-color: #d10016 !important;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover,
+.contact:hover {
+  opacity: 50%;
+}
+
+.banner {
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-video, .right-block {
+  flex: 1;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.live-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #d10016;
+  color: white;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title-overlay {
+  position: absolute;
+  top: àpx;
+  left: 10px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 2;
+  font-size: 1rem;
+}
+
+.title-overlay .icon {
+  width: 18px;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-row img {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.lower-video {
+  margin-top: 30px;
+}
+
+.three-column {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.three-column .title-overlay {
+  top: 0px;
+  font-size: 0.9rem;
+}
+
+.tall-video {
+  aspect-ratio: 16 / 13; /* of pas dit aan naar wens */
+}
+
+
+h3 {
+  font-family: 'Arvo', serif;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-family: 'Arvo', serif;
+  font-size: 1.1rem;
+  margin-bottom: 5px !important;
+}
+
+p {
+  line-height: 1.5
+}
+
+.bottom-block ul {
+  margin-bottom: 80px;
+  margin-left: 2vw;
+}
+
+.bottom-block a {
+  color: #d10016;
+  text-decoration: none;
+}
+
+.bottom-block a:hover {
+  opacity: 50%
+}
+
+.bottom-block .title-inline {
+  margin-left: 2vw;
+}
+
+.beetje {
+  margin-left: 2vw;
+}
+
+.beetje img:first-of-type{
+  width: 4vw;
+}
+
+.beetje img:hover{
+  opacity: 50%;
+}
+
+.beetje img:nth-last-of-type(2){
+  width: 3vw;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
+
+.bottom-block div div {
+  margin-top: 10px;
+}
+
+.beetje img:last-of-type{
+  width: 4vw;
+}
+
+.three-column .column {
+  flex: 1;
+}
+
+.five-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+    background-color: #f8f8f8;
+}
+
+.title-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* ruimte tussen icoon en titel */
+}
+
+.five-items .left-item {
+  flex: 1 1 45%;
+}
+
+.five-items .right-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 20%;
+  padding-right: 5%
+}
+
+.right-items .item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.logos-bar img {
+  height: 80px;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.bottom-block div{
+  background-color: #E0E0E0;
+  border-radius: 25px;
+  width: 48%;
+}
+
+footer {
+  background: #d10016;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.partner-logo {
+  max-height: 40px;
+  margin-top: 10px;
+}
+
+footer a.crazylemon {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+footer a.crazylemon:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+footer p {
+  margin-bottom: 10px !important;
+}
+
+footer img {
+  margin-bottom: 10px !important;
+  margin-left: 1vw !important;
+  margin-right: 1vw !important;
+}
