@@ -11648,6 +11648,11 @@ body:where(.bricks-is-frontend), body:where(:not(.bricks-is-frontend)) {
   max-width: 100%;
 }
 
+.flyer{
+  padding-left: 30%;
+  padding-right: 30%
+}
+
 /* :root, .color-scheme--main, .color-scheme--alt .color-scheme--alt {
   --action: black;
 }
@@ -11864,4 +11869,13 @@ margin-top: 3vh !important;
 
 footer div {
 margin-left: 20vw !important;
+}
+
+
+@media (max-width: 667px)
+{
+.flyer{
+  padding-left: 0%;
+  padding-right: 0%
+}
 }
