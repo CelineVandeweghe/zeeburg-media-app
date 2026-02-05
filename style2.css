@@ -11745,7 +11745,7 @@ padding-bottom: var(--section-space-xs)
 #brxe-qjcsyj:before {content: '/ '; color: var(--accent)}#brxe-qjcsyj {color: var(--white); font-size: var(--h2); text-align: center; display: none}#brxe-qrrpqu {align-items: center}#brxe-rjhjry {color: var(--accent); font-size: var(--h3); font-family: "Ubuntu"; font-weight: 600}#brxe-fppchr {font-size: var(--text-l)}#brxe-yydycp {color: var(--white); font-size: var(--text-l)}#brxe-cubgpp {row-gap: var(--space-xs)}#brxe-jagyaz {color: var(--white); display: none}#brxe-jagyaz a {color: var(--white); font-size: inherit}#brxe-jagyaz .accent-link { color:var(--accent);}#brxe-jagyaz .accent-link:hover { color:var(--accent-trans-80);}#brxe-niiftx {display: grid; align-items: initial; grid-template-columns: var(--grid-2)}@media (max-width: 478px) {#brxe-niiftx {grid-template-columns: var(--grid-1)}}
 
 #brxe-favnjm {
-background-color: #2E3060
+background-color: #2E3060;
 }
 
 #brxe-rcmxiw {width: 50px}#brxe-tnbmcv {padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: var(--base-ultra-light); border-radius: var(--radius-circle)}#brxe-tissqf {width: 50px}#brxe-gowwfk {padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: var(--base-ultra-light); border-radius: var(--radius-circle)}#brxe-sgjirg {flex-direction: row}#brxe-pqbvnf {width: 2.5em; color: var(--white); fill: var(--white)}#brxe-pqbvnf:hover {color: var(--accent); fill: var(--accent)}#brxe-gbxnvw {width: 2.5em; color: var(--white); fill: var(--white)}#brxe-gbxnvw:hover {color: var(--accent); fill: var(--accent)}#brxe-ltrhbf {display: flex}#brxe-zalhis {flex-direction: row; justify-content: space-between; align-items: center}#brxe-edjhfz {padding-top: var(--section-space-xs); padding-bottom: var(--section-space-xs); background-color: var(--base-ultra-dark)}
@@ -11871,16 +11871,8 @@ footer div {
 margin-left: 20vw !important;
 }
 
-.css-filter{
-  filter: grayscale(100%);
-}
-
 .grey{
-    filter: grayscale(100%) !important;
-}
-
-.brxe-container{
-  display: block !important
+  filter: grayscale(100%) !important;
 }
 
 @media (max-width: 667px)
