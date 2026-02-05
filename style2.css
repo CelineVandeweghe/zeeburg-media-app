@@ -11871,6 +11871,10 @@ footer div {
 margin-left: 20vw !important;
 }
 
+.css-filter{
+  filter: grayscale(100%);
+}
+
 
 @media (max-width: 667px)
 {
