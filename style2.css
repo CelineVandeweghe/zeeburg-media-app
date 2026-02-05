@@ -11875,6 +11875,9 @@ margin-left: 20vw !important;
   filter: grayscale(100%);
 }
 
+.grey{
+    filter: grayscale(100%);
+}
 
 @media (max-width: 667px)
 {
