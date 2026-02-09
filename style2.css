@@ -11875,6 +11875,10 @@ margin-left: 20vw !important;
   filter: grayscale(100%) !important;
 }
 
+.grey:hover{
+  filter: grayscale(0%) !important;
+}
+
 @media (max-width: 667px)
 {
 .flyer{
